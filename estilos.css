@@ -1,0 +1,73 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Color de fondo para el cuerpo del CV */
+}
+
+h1 {
+    color: #e9b50d; /* Color del título principal */
+}
+
+.profile-description {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    background-color: #e41919; /* Color de fondo para la sección de perfil */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: #29ad07; /* Color de fondo para las secciones de experiencia y educación */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    background-color: #34d19d; /* Color de fondo para la sección de habilidades */
+    padding: 10px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilos para los elementos de la lista */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #9c2828de; /* Color del texto */
+}
+
+/* Estilos para los títulos de las secciones */
+h2 {
+    color: #4111f0; /* Color de los títulos de sección */
+}
+
+h3 {
+    color: #cc3a7e; /* Color de los sub-títulos */
+}
+
+
+.image-profile>img{
+    
+    border-radius: 600px;
+    display: flex;
+    width: 150px;
+}
+
+.personal {
+    background-color: #ffd700; /* Color de fondo para la sección de datos personales */
+    padding: 15px; /* Espaciado interior */
+    border-radius: 8px; /* Bordes redondeados */
+    
+}
